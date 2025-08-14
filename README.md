@@ -1,12 +1,29 @@
-# React + Vite
+# Quiz App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional quiz application built using **React** with **Vite** as the build tool.  
+It includes a **user email entry screen**, a **countdown timer**, a **navigation panel with attempted/visited tracking**, and a **review mode** after submission.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Email Authentication Gate** – Quiz starts only after the user enters a valid email.
+- **30-Minute Countdown** – Automatic submission when the timer hits 0.
+- **Navigation Panel** – Jump to specific questions anytime.
+- **Question Status Colors**:
+  - 🟨 **Current Question** – Highlighted in yellow.
+  - 🟩 **Attempted** – Highlighted in green.
+  - 🔵 **Visited** – Highlighted in blue.
+  - ⚪ **Not Visited** – Default color.
+- **Progress Bar** – Shows question progress.
+- **Review Mode** – Slide through each question to see your answers and correct answers.
+- **Responsive Design** – Works on desktop and mobile.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/quiz-app.git
+   cd quiz-app
